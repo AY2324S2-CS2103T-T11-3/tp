@@ -51,6 +51,7 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
+        "proposed-creating-and-deleting-tag-objects": "[Proposed] Creating and Deleting Tag Objects",
         "proposed-importing-and-exporting-as-csv-file": "[Proposed] Importing and Exporting as .csv file",
         "proposed-event-switching-feature": "[Proposed] Event switching feature",
         "proposed-deleting-by-name-and-index-feature": "[Proposed] Deleting by Name and Index feature",
