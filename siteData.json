@@ -40,7 +40,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide :)",
       "headings": {
-        "addressbook-developer-guide": "AddressBook Developer Guide",
+        "eventbook-developer-guide": "EventBook Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -52,6 +52,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "proposed-event-switching-feature": "[Proposed] Event switching feature",
+        "proposed-deleting-by-name-and-index-feature": "[Proposed] Deleting by Name and Index feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
