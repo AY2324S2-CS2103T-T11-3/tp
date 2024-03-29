@@ -55,6 +55,7 @@
         "proposed-event-switching-feature": "[Proposed] Event switching feature",
         "proposed-deleting-by-name-and-index-feature": "[Proposed] Deleting by Name and Index feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
+        "proposed-grouping-students-by-an-eventtag": "[Proposed] Grouping Students by an EventTag.",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
