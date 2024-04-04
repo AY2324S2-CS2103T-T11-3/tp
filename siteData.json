@@ -121,6 +121,7 @@
         "editing-a-person-edit": "Editing a person : edit",
         "creating-a-tag-ctag": "Creating a tag : ctag",
         "delete-a-tag-dtag": "Delete a tag : dtag",
+        "delete-an-eventtag-devent": "Delete an EventTag : devent",
         "assigning-a-tag-assign": "Assigning a tag : assign",
         "searching-by-tag-search": "Searching by tag : search",
         "switching-between-events-switch": "Switching between events : switch",
