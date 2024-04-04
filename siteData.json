@@ -123,6 +123,7 @@
         "delete-a-tag-dtag": "Delete a tag : dtag",
         "assigning-a-tag-assign": "Assigning a tag : assign",
         "searching-by-tag-search": "Searching by tag : search",
+        "switching-between-events-switch": "Switching between events : switch",
         "locating-persons-by-name-find": "Locating persons by name: find",
         "deleting-a-person-delete": "Deleting a person : delete",
         "clearing-all-entries-clear": "Clearing all entries : clear",
