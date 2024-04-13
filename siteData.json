@@ -113,7 +113,10 @@
       "title": "User Guide",
       "headings": {
         "eventbook-user-guide": "EventBook User Guide",
+        "graphical-user-interface-gui": "Graphical User Interface (GUI)",
+        "person": "Person",
         "quick-start": "Quick start",
+        "command-format": "Command Format",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
         "adding-a-person-add": "Adding a person: add",
