@@ -850,7 +850,9 @@ switch hello
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
 
-## **Appendix: Enhancement (Team Size 5)**
+## **Appendix: Enhancement**
+
+Team Size: 5
 
 1. **To show custom error for wrong time in `ctag` command**: When creating event tags with the `ctag` command,
 you will not get notified correctly on why you failed when you input the incorrect time(like 25:73:74 in the 24-hour 
