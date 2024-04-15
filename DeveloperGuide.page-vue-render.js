@@ -1,7 +1,7 @@
 
     var pageVueRenderFn = function anonymous(
 ) {
-with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""}},[_c('navbar',{attrs:{"type":"dark"},scopedSlots:_u([{key:"brand",fn:function(){return [_c('a',{staticClass:"navbar-brand",attrs:{"href":"/tp/index.html","title":"Home"}},[_v("EventBook")])]},proxy:true},{key:"right",fn:function(){return [_c('li',[_c('form',{staticClass:"navbar-form"},[_c('searchbar',{attrs:{"data":searchData,"placeholder":"Search","on-hit":searchCallback,"menu-align-right":""}})],1)])]},proxy:true}])},[_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/index.html"}},[_v("Home")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"https://github.com/se-edu/addressbook-level3","target":"_blank"}},[_c('span',[_c('span',{staticClass:"fab fa-github",attrs:{"aria-hidden":"true"}})])])])])],1),_v(" "),_c('div',{attrs:{"id":"flex-body"}},[_c('overlay-source',{attrs:{"id":"site-nav","tag-name":"nav","to":"site-nav"}},[_c('div',{staticClass:"site-nav-top"},[_c('div',{staticClass:"fw-bold mb-2",staticStyle:{"font-size":"1.25rem"}},[_v("Site Map")])]),_v(" "),_c('div',{staticClass:"nav-component slim-scroll"},[_c('site-nav',[_c('overlay-source',{staticClass:"site-nav-list site-nav-list-root",attrs:{"tag-name":"ul","to":"mb-site-nav"}},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/index.html"}},[_v("Home")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#quick-start"}},[_v("Quick Start")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#features"}},[_v("Features")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("FAQ")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("Command Summary")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#acknowledgements"}},[_v("Acknowledgements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#setting-up-getting-started"}},[_v("Setting Up")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#design"}},[_v("Design")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#implementation"}},[_v("Implementation")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-requirements"}},[_v("Appendix: Requirements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_v("Tutorials\n\n"),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/TracingCode.html"}},[_v("Tracing code")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/AddRemark.html"}},[_v("Adding a command")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/RemovingFields.html"}},[_v("Removing Fields")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])])])])],1)],1)]),_v(" "),_c('div',{attrs:{"id":"content-wrapper"}},[_m(0),_v(" "),_c('div',{pre:true,attrs:{"class":"page-nav-print d-none d-print-block"}}),_v(" "),_c('hr'),_v(" "),_m(1),_v(" "),_m(2),_v(" "),_c('hr'),_v(" "),_m(3),_v(" "),_m(4),_v(" "),_c('hr'),_v(" "),_m(5),_v(" "),_m(6),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ArchitectureDiagram.png","width":"280"}}),_v(" "),_m(7),_v(" "),_c('p',[_v("Given below is a quick overview of main components and how they interact with each other.")]),_v(" "),_m(8),_v(" "),_m(9),_v(" "),_m(10),_v(" "),_c('p',[_v("The bulk of the app's work is done by the following four components:")]),_v(" "),_m(11),_v(" "),_m(12),_v(" "),_m(13),_v(" "),_m(14),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ArchitectureSequenceDiagram.png","width":"574"}}),_v(" "),_c('p',[_v("Each of the four main components (also shown in the diagram above),")]),_v(" "),_m(15),_v(" "),_m(16),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ComponentManagers.png","width":"300"}}),_v(" "),_c('p',[_v("The sections below give more details of each component.")]),_v(" "),_m(17),_v(" "),_m(18),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UiClassDiagram.png","alt":"Structure of the UI Component"}}),_v(" "),_m(19),_v(" "),_m(20),_v(" "),_m(21),_v(" "),_m(22),_v(" "),_m(23),_v(" "),_m(24),_v(" "),_m(25),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/LogicClassDiagram.png","width":"550"}}),_v(" "),_m(26),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/DeleteSequenceDiagram.png","alt":"Interactions Inside the Logic Component for the `delete 1` Command"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" The lifeline for "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("DeleteCommandParser")]),_v(" should end at the destroy marker (X) but due to a limitation of PlantUML, the lifeline continues till the end of diagram.")])]),_v(" "),_m(27),_v(" "),_m(28),_v(" "),_m(29),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ParserClasses.png","width":"600"}}),_v(" "),_c('p',[_v("How the parsing works:")]),_v(" "),_m(30),_v(" "),_m(31),_v(" "),_m(32),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ModelClassDiagram.png","width":"450"}}),_v(" "),_m(33),_v(" "),_m(34),_v(" "),_m(35),_v(" "),_m(36),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/StorageClassDiagram.png","width":"550"}}),_v(" "),_m(37),_v(" "),_m(38),_v(" "),_m(39),_v(" "),_m(40),_v(" "),_c('hr'),_v(" "),_m(41),_v(" "),_c('p',[_v("This section describes some noteworthy details on how certain features are implemented.")]),_v(" "),_m(42),_v(" "),_c('p',[_v("As student leaders will be in charge of multiple events, they encounter a large number of contacts to be saved. By incorporating a delete feature in EventBook to allow student leaders to swiftly delete contacts either by name or index, it streamlines their workflow, sparing them the effort of manually sifting through extensive contact lists before deletion.")]),_v(" "),_c('p',[_v("This proposed delete feature introduces the concept of deleting the contacts by either name or index.")]),_v(" "),_c('p',[_v("Given below is an example usage scenario and how delete mechanism behaves at each step.")]),_v(" "),_c('p',[_v("Step 1: The user launches the application. The application will be in its initial state showing the full list of contacts in the EventBook.")]),_v(" "),_m(43),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the command fails the execution, it means that the person does not exist and an error indicating that the person is not found will be shown.")])]),_v(" "),_m(44),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/DeleteSequenceDiagram.png"}}),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes a delete command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/DeleteActivityDiagram.png","width":"450"}}),_v(" "),_m(45),_v(" "),_m(46),_v(" "),_m(47),_v(" "),_m(48),_v(" "),_c('p',[_v("As student leaders manage multiple events, they often need to update contact information swiftly within EventBook. By introducing an edit feature, student leaders can efficiently modify contact details either by name or index, enhancing their productivity and streamlining their workflow.")]),_v(" "),_c('p',[_v("This proposed edit feature introduces the capability to edit contacts by either their name or index.")]),_v(" "),_c('p',[_v("Given below is an example usage scenario and how edit mechanism behaves at each step.")]),_v(" "),_c('p',[_v("Step 1: The user launches the application. The application will be in its initial state showing the full list of contacts in the EventBook.")]),_v(" "),_m(49),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the command fails the execution, it means that the person does not exist and an error indication that the person is not found will be shown.")])]),_v(" "),_m(50),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/EditSequenceDiagram.png"}}),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes an edit command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/EditActivityDiagram.png","width":"450"}}),_v(" "),_m(51),_v(" "),_c('p',[_v("As part of the functionality of EventBook, a myriad of tag objects might be required to facilitate organisation of\ncontacts within the program. EventBook aims to support this capability by providing the ability to create or delete\nstandalone tags separate from people.")]),_v(" "),_c('p',[_v("The proposed mechanism is as follows:")]),_v(" "),_m(52),_v(" "),_m(53),_v(" "),_m(54),_v(" "),_m(55),_v(" "),_m(56),_v(" "),_m(57),_v(" "),_m(58),_v(" "),_m(59),_v(" "),_m(60),_v(" "),_m(61),_v(" "),_m(62),_v(" "),_m(63),_v(" "),_m(64),_v(" "),_m(65),_v(" "),_c('p',[_v("The event switching feature allows for easy switching between event tabs to view event members. This is achieved by the introducing event-specific filtering to EventBook.")]),_v(" "),_m(66),_v(" "),_m(67),_v(" "),_m(68),_v(" "),_m(69),_v(" "),_m(70),_v(" "),_m(71),_v(" "),_m(72),_v(" "),_m(73),_v(" "),_m(74),_v(" "),_m(75),_v(" "),_m(76),_v(" "),_c('p',[_v("The delete event feature allows for easy deleting of event tags. This is great as when an event is over, an event tag\ncan be deleted to allow easy management of the EventBook contact list.")]),_v(" "),_m(77),_v(" "),_c('p',[_v("As student leaders, a common and easily accessible file format type for event contacts would be .csv. Eventbook\naims to support the ability to import and export contacts using .csv files to facilitate fast and effective contact\nupload and sharing.")]),_v(" "),_c('p',[_v("The proposed mechanism is as follows:")]),_v(" "),_m(78),_v(" "),_m(79),_v(" "),_m(80),_v(" "),_c('p',[_v("An example usage scenario illustrates how the import feature operates:")]),_v(" "),_m(81),_v(" "),_c('p',[_v("An example usage scenario illustrates how the export feature operates:")]),_v(" "),_m(82),_v(" "),_m(83),_v(" "),_m(84),_v(" "),_m(85),_v(" "),_m(86),_v(" "),_m(87),_v(" "),_c('p',[_v("Given below is an example usage scenario and how the undo/redo mechanism behaves at each step.")]),_v(" "),_m(88),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState0.png","alt":"UndoRedoState0"}}),_v(" "),_m(89),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState1.png","alt":"UndoRedoState1"}}),_v(" "),_m(90),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState2.png","alt":"UndoRedoState2"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If a command fails its execution, it will not call "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#commitAddressBook()")]),_v(", so the address book state will not be saved into the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addressBookStateList")]),_v(".")])]),_v(" "),_m(91),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState3.png","alt":"UndoRedoState3"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("currentStatePointer")]),_v(" is at index 0, pointing to the initial AddressBook state, then there are no previous AddressBook states to restore. The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("undo")]),_v(" command uses "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#canUndoAddressBook()")]),_v(" to check if this is the case. If so, it will return an error to the user rather\nthan attempting to perform the undo.")])]),_v(" "),_m(92),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoSequenceDiagram-Logic.png","alt":"UndoSequenceDiagram-Logic"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" The lifeline for "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UndoCommand")]),_v(" should end at the destroy marker (X) but due to a limitation of PlantUML, the lifeline reaches the end of diagram.")])]),_v(" "),_m(93),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoSequenceDiagram-Model.png","alt":"UndoSequenceDiagram-Model"}}),_v(" "),_m(94),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("currentStatePointer")]),_v(" is at index "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addressBookStateList.size() - 1")]),_v(", pointing to the latest address book state, then there are no undone AddressBook states to restore. The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("redo")]),_v(" command uses "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#canRedoAddressBook()")]),_v(" to check if this is the case. If so, it will return an error to the user rather than attempting to perform the redo.")])]),_v(" "),_m(95),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState4.png","alt":"UndoRedoState4"}}),_v(" "),_m(96),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState5.png","alt":"UndoRedoState5"}}),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes a new command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/CommitActivityDiagram.png","width":"250"}}),_v(" "),_m(97),_v(" "),_m(98),_v(" "),_m(99),_v(" "),_m(100),_v(" "),_c('p',[_v("As our student leaders will be in-charge of multiple events, they will need to know which student is involved in which event. As such, we are propose an EventTag feature pack which allows you to have easy access to the event features students are tagged with.")]),_v(" "),_c('p',[_v("This proposed event tag feature introduces a new class EventTag, which allows students leaders to tag students involved in an event with its respective EventTag, which also contains the event description, such as start and end dates, event details, etc.")]),_v(" "),_c('p',[_v("The key operations and components of the proposed implementation include:")]),_v(" "),_m(101),_v(" "),_c('p',[_v("An example usage scenario illustrates how the EventTag feature operates:")]),_v(" "),_m(102),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes a new command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/EventTagActivityDiagram.png","width":"250"}}),_v(" "),_m(103),_v(" "),_m(104),_v(" "),_m(105),_v(" "),_m(106),_v(" "),_m(107),_v(" "),_m(108),_v(" "),_c('hr'),_v(" "),_m(109),_v(" "),_m(110),_v(" "),_c('hr'),_v(" "),_m(111),_v(" "),_m(112),_v(" "),_m(113),_v(" "),_m(114),_v(" "),_m(115),_v(" "),_m(116),_v(" "),_m(117),_v(" "),_m(118),_m(119),_v(" "),_m(120),_v(" "),_m(121),_v(" "),_m(122),_v(" "),_m(123),_v(" "),_m(124),_v(" "),_m(125),_v(" "),_m(126),_v(" "),_m(127),_v(" "),_m(128),_v(" "),_m(129),_v(" "),_m(130),_v(" "),_m(131),_v(" "),_m(132),_v(" "),_m(133),_v(" "),_m(134),_v(" "),_m(135),_v(" "),_m(136),_v(" "),_m(137),_v(" "),_m(138),_v(" "),_m(139),_v(" "),_m(140),_v(" "),_m(141),_v(" "),_m(142),_v(" "),_c('hr'),_v(" "),_m(143),_v(" "),_c('p',[_v("Given below are instructions to test the app manually.")]),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" These instructions only provide a starting point for testers to work on;\ntesters are expected to do more "),_c('em',[_v("exploratory")]),_v(" testing.")])]),_v(" "),_m(144),_v(" "),_m(145),_v(" "),_m(146),_v(" "),_m(147),_v(" "),_m(148),_v(" "),_m(149),_v(" "),_c('hr'),_v(" "),_m(150),_v(" "),_m(151)],1),_v(" "),_c('overlay-source',{attrs:{"id":"page-nav","tag-name":"nav","to":"page-nav"}},[_c('div',{staticClass:"nav-component slim-scroll"},[_c('overlay-source',{staticClass:"nav nav-pills flex-column my-0 small no-flex-wrap",attrs:{"id":"mb-page-nav","tag-name":"nav","to":"mb-page-nav"}},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#eventbook-developer-guide"}},[_v("EventBook Developer Guide‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#acknowledgements"}},[_v("Acknowledgements‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#setting-up-getting-started"}},[_v("Setting up, getting started‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#design"}},[_v("Design‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#architecture"}},[_v("Architecture‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#ui-component"}},[_v("UI component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#logic-component"}},[_v("Logic component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#model-component"}},[_v("Model component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#storage-component"}},[_v("Storage component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#common-classes"}},[_v("Common classes‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#implementation"}},[_v("Implementation‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#deleting-contacts-by-index-name"}},[_v("Deleting Contacts by Index/Name‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#editing-contacts-by-index-name"}},[_v("Editing Contacts by Index/Name‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-creating-and-deleting-tag-objects"}},[_v("[Proposed] Creating and Deleting Tag Objects‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#assign-tag-command"}},[_v("Assign Tag command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#search-by-tags-command"}},[_v("Search by Tags command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#switch-event-command"}},[_v("Switch Event command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#delete-event-command"}},[_v("Delete Event Command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-importing-and-exporting-as-csv-file"}},[_v("[Proposed] Importing and Exporting as .csv file‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-undo-redo-feature"}},[_v("[Proposed] Undo/redo feature‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-grouping-students-by-an-eventtag"}},[_v("[Proposed] Grouping Students by an EventTag.‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-data-archiving"}},[_v("[Proposed] Data archiving‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-requirements"}},[_v("Appendix: Requirements‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#product-scope"}},[_v("Product scope‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#user-stories"}},[_v("User stories‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#use-cases-uc"}},[_v("Use cases (UC)‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#non-functional-requirements"}},[_v("Non-Functional Requirements‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#glossary"}},[_v("Glossary‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#launch-and-shutdown"}},[_v("Launch and shutdown‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#deleting-a-person"}},[_v("Deleting a person‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#saving-data"}},[_v("Saving data‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-enhancement"}},[_v("Appendix: Enhancement‎")])])])],1)]),_v(" "),_c('scroll-top-button')],1),_v(" "),_m(152)])}
+with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""}},[_c('navbar',{attrs:{"type":"dark"},scopedSlots:_u([{key:"brand",fn:function(){return [_c('a',{staticClass:"navbar-brand",attrs:{"href":"/tp/index.html","title":"Home"}},[_v("EventBook")])]},proxy:true},{key:"right",fn:function(){return [_c('li',[_c('form',{staticClass:"navbar-form"},[_c('searchbar',{attrs:{"data":searchData,"placeholder":"Search","on-hit":searchCallback,"menu-align-right":""}})],1)])]},proxy:true}])},[_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/index.html"}},[_v("Home")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"https://github.com/se-edu/addressbook-level3","target":"_blank"}},[_c('span',[_c('span',{staticClass:"fab fa-github",attrs:{"aria-hidden":"true"}})])])])])],1),_v(" "),_c('div',{attrs:{"id":"flex-body"}},[_c('overlay-source',{attrs:{"id":"site-nav","tag-name":"nav","to":"site-nav"}},[_c('div',{staticClass:"site-nav-top"},[_c('div',{staticClass:"fw-bold mb-2",staticStyle:{"font-size":"1.25rem"}},[_v("Site Map")])]),_v(" "),_c('div',{staticClass:"nav-component slim-scroll"},[_c('site-nav',[_c('overlay-source',{staticClass:"site-nav-list site-nav-list-root",attrs:{"tag-name":"ul","to":"mb-site-nav"}},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/index.html"}},[_v("Home")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#quick-start"}},[_v("Quick Start")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#features"}},[_v("Features")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("FAQ")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("Command Summary")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#acknowledgements"}},[_v("Acknowledgements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#setting-up-getting-started"}},[_v("Setting Up")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#design"}},[_v("Design")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#implementation"}},[_v("Implementation")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-requirements"}},[_v("Appendix: Requirements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_v("Tutorials\n\n"),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/TracingCode.html"}},[_v("Tracing code")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/AddRemark.html"}},[_v("Adding a command")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/tutorials/RemovingFields.html"}},[_v("Removing Fields")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])])])])],1)],1)]),_v(" "),_c('div',{attrs:{"id":"content-wrapper"}},[_m(0),_v(" "),_c('div',{pre:true,attrs:{"class":"page-nav-print d-none d-print-block"}}),_v(" "),_c('hr'),_v(" "),_m(1),_v(" "),_m(2),_v(" "),_c('hr'),_v(" "),_m(3),_v(" "),_m(4),_v(" "),_c('hr'),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(5),_v(" "),_m(6),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ArchitectureDiagram.png","width":"280"}}),_v(" "),_m(7),_v(" "),_c('p',[_v("Given below is a quick overview of main components and how they interact with each other.")]),_v(" "),_m(8),_v(" "),_m(9),_v(" "),_m(10),_v(" "),_c('p',[_v("The bulk of the app's work is done by the following four components:")]),_v(" "),_m(11),_v(" "),_m(12),_v(" "),_m(13),_v(" "),_m(14),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ArchitectureSequenceDiagram.png","width":"574"}}),_v(" "),_c('p',[_v("Each of the four main components (also shown in the diagram above),")]),_v(" "),_m(15),_v(" "),_m(16),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ComponentManagers.png","width":"300"}}),_v(" "),_c('p',[_v("The sections below give more details of each component.")]),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(17),_v(" "),_m(18),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UiClassDiagram.png","alt":"Structure of the UI Component"}}),_v(" "),_m(19),_v(" "),_m(20),_v(" "),_m(21),_v(" "),_m(22),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(23),_v(" "),_m(24),_v(" "),_m(25),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/LogicClassDiagram.png","width":"550"}}),_v(" "),_m(26),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/DeleteSequenceDiagram.png","alt":"Interactions Inside the Logic Component for the `delete 1` Command"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" The lifeline for "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("DeleteCommandParser")]),_v(" should end at the destroy marker (X) but due to a limitation of PlantUML, the lifeline continues till the end of diagram.")])]),_v(" "),_m(27),_v(" "),_m(28),_v(" "),_m(29),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ParserClasses.png","width":"600"}}),_v(" "),_c('p',[_v("How the parsing works:")]),_v(" "),_m(30),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(31),_v(" "),_m(32),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ModelClassDiagram.png","width":"450"}}),_v(" "),_m(33),_v(" "),_c('ul',[_m(34),_v(" "),_c('li',[_v("Not modelled in diagram due to limitations of PlantUML: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UniqueTagList")]),_v(" object storing EventTags.\n"),_c('ul',[_m(35),_v(" "),_c('li',[_v("Each EventBook stores a list of tags of type "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UniqueTagList<Tag>")]),_v(" and a list of event tags of type "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UniqueTagList<EventTag>")]),_v(". However PlantUML is unable to capture the "),_c('tag',[_v(" and "),_c('eventtag',[_v(" portion, hence we were unable to include the EventTag list in the diagram.")])],1)],1)])]),_v(" "),_m(36),_v(" "),_m(37),_v(" "),_m(38)]),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(39),_v(" "),_m(40),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/StorageClassDiagram.png","width":"550"}}),_v(" "),_m(41),_v(" "),_m(42),_v(" "),_m(43),_v(" "),_m(44),_v(" "),_c('hr'),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(45),_v(" "),_c('p',[_v("This section describes some noteworthy details on how certain features are implemented.")]),_v(" "),_m(46),_v(" "),_c('p',[_v("As student leaders will be in charge of multiple events, they encounter a large number of contacts to be saved. By incorporating a delete feature in EventBook to allow student leaders to swiftly delete contacts either by name or index, it streamlines their workflow, sparing them the effort of manually sifting through extensive contact lists before deletion.")]),_v(" "),_c('p',[_v("This proposed delete feature introduces the concept of deleting the contacts by either name or index.")]),_v(" "),_c('p',[_v("Given below is an example usage scenario and how delete mechanism behaves at each step.")]),_v(" "),_c('p',[_v("Step 1: The user launches the application. The application will be in its initial state showing the full list of contacts in the EventBook.")]),_v(" "),_m(47),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the command fails the execution, it means that the person does not exist and an error indicating that the person is not found will be shown.")])]),_v(" "),_m(48),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/DeleteSequenceDiagram.png"}}),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes a delete command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/DeleteActivityDiagram.png","width":"450"}}),_v(" "),_m(49),_v(" "),_m(50),_v(" "),_m(51),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(52),_v(" "),_c('p',[_v("As student leaders manage multiple events, they often need to update contact information swiftly within EventBook. By introducing an edit feature, student leaders can efficiently modify contact details either by name or index, enhancing their productivity and streamlining their workflow.")]),_v(" "),_c('p',[_v("This proposed edit feature introduces the capability to edit contacts by either their name or index.")]),_v(" "),_c('p',[_v("Given below is an example usage scenario and how edit mechanism behaves at each step.")]),_v(" "),_c('p',[_v("Step 1: The user launches the application. The application will be in its initial state showing the full list of contacts in the EventBook.")]),_v(" "),_m(53),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the command fails the execution, it means that the person does not exist and an error indication that the person is not found will be shown.")])]),_v(" "),_m(54),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/EditSequenceDiagram.png"}}),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes an edit command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/EditActivityDiagram.png","width":"450"}}),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(55),_v(" "),_c('p',[_v("As part of the functionality of EventBook, a myriad of tag objects might be required to facilitate organisation of\ncontacts within the program. EventBook aims to support this capability by providing the ability to create or delete\nstandalone tags separate from people.")]),_v(" "),_c('p',[_v("The proposed mechanism is as follows:")]),_v(" "),_m(56),_v(" "),_m(57),_v(" "),_m(58),_v(" "),_m(59),_v(" "),_m(60),_v(" "),_m(61),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(62),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(63),_v(" "),_m(64),_v(" "),_m(65),_v(" "),_m(66),_v(" "),_m(67),_v(" "),_m(68),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(69),_v(" "),_c('p',[_v("The event switching feature allows for easy switching between event tabs to view event members. This is achieved by the introducing event-specific filtering to EventBook.")]),_v(" "),_m(70),_v(" "),_m(71),_v(" "),_m(72),_v(" "),_m(73),_v(" "),_m(74),_v(" "),_m(75),_v(" "),_m(76),_v(" "),_m(77),_v(" "),_m(78),_v(" "),_m(79),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(80),_v(" "),_c('p',[_v("The delete event feature allows for easy deleting of event tags. This is great as when an event is over, an event tag\ncan be deleted to allow easy management of the EventBook contact list.")]),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(81),_v(" "),_c('p',[_v("As student leaders, a common and easily accessible file format type for event contacts would be .csv. Eventbook\naims to support the ability to import and export contacts using .csv files to facilitate fast and effective contact\nupload and sharing.")]),_v(" "),_c('p',[_v("The proposed mechanism is as follows:")]),_v(" "),_m(82),_v(" "),_m(83),_v(" "),_m(84),_v(" "),_c('p',[_v("An example usage scenario illustrates how the import feature operates:")]),_v(" "),_m(85),_v(" "),_c('p',[_v("An example usage scenario illustrates how the export feature operates:")]),_v(" "),_m(86),_v(" "),_m(87),_v(" "),_m(88),_v(" "),_m(89),_v(" "),_m(90),_v(" "),_m(91),_v(" "),_c('p',[_v("Given below is an example usage scenario and how the undo/redo mechanism behaves at each step.")]),_v(" "),_m(92),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState0.png","alt":"UndoRedoState0"}}),_v(" "),_m(93),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState1.png","alt":"UndoRedoState1"}}),_v(" "),_m(94),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState2.png","alt":"UndoRedoState2"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If a command fails its execution, it will not call "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#commitAddressBook()")]),_v(", so the address book state will not be saved into the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addressBookStateList")]),_v(".")])]),_v(" "),_m(95),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState3.png","alt":"UndoRedoState3"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("currentStatePointer")]),_v(" is at index 0, pointing to the initial AddressBook state, then there are no previous AddressBook states to restore. The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("undo")]),_v(" command uses "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#canUndoAddressBook()")]),_v(" to check if this is the case. If so, it will return an error to the user rather\nthan attempting to perform the undo.")])]),_v(" "),_m(96),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoSequenceDiagram-Logic.png","alt":"UndoSequenceDiagram-Logic"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" The lifeline for "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UndoCommand")]),_v(" should end at the destroy marker (X) but due to a limitation of PlantUML, the lifeline reaches the end of diagram.")])]),_v(" "),_m(97),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoSequenceDiagram-Model.png","alt":"UndoSequenceDiagram-Model"}}),_v(" "),_m(98),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("currentStatePointer")]),_v(" is at index "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addressBookStateList.size() - 1")]),_v(", pointing to the latest address book state, then there are no undone AddressBook states to restore. The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("redo")]),_v(" command uses "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#canRedoAddressBook()")]),_v(" to check if this is the case. If so, it will return an error to the user rather than attempting to perform the redo.")])]),_v(" "),_m(99),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState4.png","alt":"UndoRedoState4"}}),_v(" "),_m(100),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState5.png","alt":"UndoRedoState5"}}),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes a new command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/CommitActivityDiagram.png","width":"250"}}),_v(" "),_m(101),_v(" "),_m(102),_v(" "),_m(103),_v(" "),_m(104),_v(" "),_c('p',[_v("As our student leaders will be in-charge of multiple events, they will need to know which student is involved in which event. As such, we are propose an EventTag feature pack which allows you to have easy access to the event features students are tagged with.")]),_v(" "),_c('p',[_v("This proposed event tag feature introduces a new class EventTag, which allows students leaders to tag students involved in an event with its respective EventTag, which also contains the event description, such as start and end dates, event details, etc.")]),_v(" "),_c('p',[_v("The key operations and components of the proposed implementation include:")]),_v(" "),_m(105),_v(" "),_c('p',[_v("An example usage scenario illustrates how the EventTag feature operates:")]),_v(" "),_m(106),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes a new command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/EventTagActivityDiagram.png","width":"250"}}),_v(" "),_m(107),_v(" "),_m(108),_v(" "),_m(109),_v(" "),_m(110),_v(" "),_m(111),_v(" "),_m(112),_v(" "),_c('hr'),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(113),_v(" "),_m(114),_v(" "),_c('hr'),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(115),_v(" "),_m(116),_v(" "),_m(117),_v(" "),_m(118),_v(" "),_m(119),_v(" "),_m(120),_v(" "),_m(121),_v(" "),_m(122),_m(123),_v(" "),_m(124),_v(" "),_m(125),_v(" "),_m(126),_v(" "),_m(127),_v(" "),_m(128),_v(" "),_m(129),_v(" "),_m(130),_v(" "),_m(131),_v(" "),_m(132),_v(" "),_m(133),_v(" "),_m(134),_v(" "),_m(135),_v(" "),_m(136),_v(" "),_m(137),_v(" "),_m(138),_v(" "),_m(139),_v(" "),_m(140),_v(" "),_m(141),_v(" "),_m(142),_v(" "),_m(143),_v(" "),_m(144),_v(" "),_m(145),_v(" "),_m(146),_v(" "),_c('hr'),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(147),_v(" "),_c('p',[_v("Given below are instructions to test the app manually.")]),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" These instructions only provide a starting point for testers to work on;\ntesters are expected to do more "),_c('em',[_v("exploratory")]),_v(" testing.")])]),_v(" "),_m(148),_v(" "),_m(149),_v(" "),_m(150),_v(" "),_c('p',[_v("Test Cases:")]),_v(" "),_m(151),_v(" "),_m(152),_m(153),_v(" "),_m(154),_v(" "),_m(155),_m(156),_v(" "),_m(157),_v(" "),_m(158),_m(159),_v(" "),_m(160),_v(" "),_m(161),_m(162),_v(" "),_m(163),_v(" "),_c('p',[_v("Prerequisites:")]),_v(" "),_m(164),_v(" "),_m(165),_v(" "),_m(166),_m(167),_v(" "),_m(168),_v(" "),_m(169),_m(170),_v(" "),_m(171),_v(" "),_m(172),_m(173),_v(" "),_m(174),_v(" "),_m(175),_m(176),_v(" "),_m(177),_v(" "),_c('p',[_v("Prerequisites:")]),_v(" "),_m(178),_v(" "),_m(179),_v(" "),_m(180),_m(181),_v(" "),_m(182),_v(" "),_m(183),_m(184),_v(" "),_m(185),_v(" "),_m(186),_m(187),_v(" "),_m(188),_v(" "),_m(189),_m(190),_v(" "),_m(191),_v(" "),_c('p',[_v("Prerequisites:")]),_v(" "),_m(192),_v(" "),_m(193),_v(" "),_m(194),_m(195),_v(" "),_m(196),_v(" "),_m(197),_m(198),_v(" "),_m(199),_v(" "),_m(200),_m(201),_v(" "),_m(202),_v(" "),_m(203),_m(204),_v(" "),_m(205),_v(" "),_m(206),_v(" "),_m(207),_v(" "),_m(208),_m(209),_v(" "),_m(210),_v(" "),_m(211),_v(" "),_m(212),_m(213),_v(" "),_m(214),_v(" "),_m(215),_m(216),_v(" "),_m(217),_v(" "),_m(218),_v(" "),_m(219),_m(220),_v(" "),_m(221),_v(" "),_m(222),_v(" "),_m(223),_m(224),_v(" "),_m(225),_v(" "),_m(226),_m(227),_v(" "),_m(228),_v(" "),_m(229),_m(230),_v(" "),_m(231),_v(" "),_m(232),_m(233),_v(" "),_m(234),_v(" "),_m(235),_m(236),_v(" "),_m(237),_v(" "),_m(238),_m(239),_v(" "),_m(240),_v(" "),_c('p',[_v("Prerequisites:")]),_v(" "),_m(241),_v(" "),_m(242),_v(" "),_m(243),_m(244),_v(" "),_m(245),_v(" "),_m(246),_m(247),_v(" "),_m(248),_v(" "),_m(249),_m(250),_v(" "),_m(251),_v(" "),_c('p',[_v("Prerequisites:")]),_v(" "),_m(252),_v(" "),_m(253),_v(" "),_m(254),_m(255),_v(" "),_m(256),_v(" "),_m(257),_m(258),_v(" "),_m(259),_v(" "),_m(260),_m(261),_v(" "),_m(262),_v(" "),_c('p',[_v("Prerequisites:")]),_v(" "),_m(263),_v(" "),_m(264),_v(" "),_m(265),_m(266),_v(" "),_m(267),_v(" "),_m(268),_m(269),_v(" "),_m(270),_v(" "),_m(271),_m(272),_v(" "),_m(273),_v(" "),_m(274),_m(275),_v(" "),_m(276),_v(" "),_c('p',[_v("Prerequisites:")]),_v(" "),_m(277),_v(" "),_m(278),_m(279),_v(" "),_m(280),_v(" "),_m(281),_m(282),_v(" "),_m(283),_v(" "),_m(284),_m(285),_v(" "),_m(286),_v(" "),_c('p',[_v("Prerequisites:")]),_v(" "),_m(287),_v(" "),_m(288),_v(" "),_m(289),_m(290),_v(" "),_m(291),_v(" "),_m(292),_m(293),_v(" "),_m(294),_v(" "),_m(295),_m(296),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" The switch command only takes in alphanumeric characters for the name!")])]),_v(" "),_c('hr'),_v(" "),_c('div',{staticStyle:{"page-break-after":"always"}}),_v(" "),_m(297),_v(" "),_m(298)],1),_v(" "),_c('overlay-source',{attrs:{"id":"page-nav","tag-name":"nav","to":"page-nav"}},[_c('div',{staticClass:"nav-component slim-scroll"},[_c('overlay-source',{staticClass:"nav nav-pills flex-column my-0 small no-flex-wrap",attrs:{"id":"mb-page-nav","tag-name":"nav","to":"mb-page-nav"}},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#eventbook-developer-guide"}},[_v("EventBook Developer Guide‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#acknowledgements"}},[_v("Acknowledgements‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#setting-up-getting-started"}},[_v("Setting up, getting started‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#design"}},[_v("Design‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#architecture"}},[_v("Architecture‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#ui-component"}},[_v("UI component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#logic-component"}},[_v("Logic component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#model-component"}},[_v("Model component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#storage-component"}},[_v("Storage component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#common-classes"}},[_v("Common classes‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#implementation"}},[_v("Implementation‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#deleting-contacts-by-index-name"}},[_v("Deleting Contacts by Index/Name‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#editing-contacts-by-index-name"}},[_v("Editing Contacts by Index/Name‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-creating-and-deleting-tag-objects"}},[_v("[Proposed] Creating and Deleting Tag Objects‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#assign-tag-command"}},[_v("Assign Tag command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#search-by-tags-command"}},[_v("Search by Tags command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#switch-event-command"}},[_v("Switch Event command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#delete-event-command"}},[_v("Delete Event Command‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-importing-and-exporting-as-csv-file"}},[_v("[Proposed] Importing and Exporting as .csv file‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-undo-redo-feature"}},[_v("[Proposed] Undo/redo feature‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-grouping-students-by-an-eventtag"}},[_v("[Proposed] Grouping Students by an EventTag.‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-data-archiving"}},[_v("[Proposed] Data archiving‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-requirements"}},[_v("Appendix: Requirements‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#product-scope"}},[_v("Product scope‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#user-stories"}},[_v("User stories‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#use-cases-uc"}},[_v("Use cases (UC)‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#non-functional-requirements"}},[_v("Non-Functional Requirements‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#glossary"}},[_v("Glossary‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#launch-and-shutdown"}},[_v("Launch and shutdown‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#adding-a-person"}},[_v("Adding a person‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#editing-a-person"}},[_v("Editing a person‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#finding-a-person"}},[_v("Finding a person‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#deleting-a-person"}},[_v("Deleting a person‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#importing-contacts"}},[_v("Importing contacts‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#exporting-contacts"}},[_v("Exporting contacts‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#creating-a-tag"}},[_v("Creating a Tag‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#deleting-a-tag"}},[_v("Deleting a Tag‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#deleting-an-eventtag"}},[_v("Deleting an EventTag‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#assigning-a-tag"}},[_v("Assigning a Tag‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#search-by-tag"}},[_v("Search by Tag‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#switching-between-events"}},[_v("Switching between Events‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-enhancement"}},[_v("Appendix: Enhancement‎")])])])],1)]),_v(" "),_c('scroll-top-button')],1),_v(" "),_m(299)])}
 };
     var pageVueStaticRenderFns = [function anonymous(
 ) {
@@ -11,7 +11,7 @@ with(this){return _c('h1',{attrs:{"id":"eventbook-developer-guide"}},[_v("EventB
 with(this){return _c('h2',{attrs:{"id":"acknowledgements"}},[_c('strong',[_v("Acknowledgements")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acknowledgements","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('em',[_v("{ list here sources of all reused/adapted ideas, code, documentation, and third-party libraries -- include links to the original source as well }")])])}
+with(this){return _c('p',[_v("This project is based on "),_c('a',{attrs:{"href":"https://se-education.org/docs/templates.html#addressbook-level-3-ab3"}},[_v("AddressBook Level 3")]),_v(".")])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"setting-up-getting-started"}},[_c('strong',[_v("Setting up, getting started")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#setting-up-getting-started","onclick":"event.stopPropagation()"}})])}
@@ -107,7 +107,19 @@ with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"hre
 with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model")]),_v(" component,")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("stores the address book data i.e., all "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" objects (which are contained in a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UniquePersonList")]),_v(" object) and all "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tag")]),_v(" objects (which are contained in a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UniqueTagList")]),_v(" object).")]),_v(" "),_c('li',[_v("stores the currently 'selected' "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" objects (e.g., results of a search query) as a separate "),_c('em',[_v("filtered")]),_v(" list which is exposed to outsiders as an unmodifiable "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ObservableList<Person>")]),_v(" that can be 'observed' e.g. the UI can be bound to this list so that the UI automatically updates when the data in the list change.")]),_v(" "),_c('li',[_v("stores a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UserPref")]),_v(" object that represents the user’s preferences. This is exposed to the outside as a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ReadOnlyUserPref")]),_v(" objects.")]),_v(" "),_c('li',[_v("does not depend on any of the other three components (as the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model")]),_v(" represents data entities of the domain, they should make sense on their own without depending on other components)")])])}
+with(this){return _c('li',[_v("Stores the EventBook data i.e., all "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" objects (which are contained in a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UniquePersonList")]),_v(" object) and all "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tag")]),_v(" objects (which are contained in a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UniqueTagList")]),_v(" object).")])}
+},function anonymous(
+) {
+with(this){return _c('li',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UniqueTagList")]),_v(" class involves the use of generics to allow it to store both "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tag")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("EventTag")]),_v(" objects.")])}
+},function anonymous(
+) {
+with(this){return _c('li',[_v("Stores the currently 'selected' "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" objects (e.g., results of a search query) as a separate "),_c('em',[_v("filtered")]),_v(" list which is exposed to outsiders as an unmodifiable "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ObservableList<Person>")]),_v(" that can be 'observed' e.g. the UI can be bound to this list so that the UI automatically updates when the data in the list change.")])}
+},function anonymous(
+) {
+with(this){return _c('li',[_v("Stores a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UserPref")]),_v(" object that represents the user’s preferences. This is exposed to the outside as a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ReadOnlyUserPref")]),_v(" objects.")])}
+},function anonymous(
+) {
+with(this){return _c('li',[_v("Does not depend on any of the other three components (as the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model")]),_v(" represents data entities of the domain, they should make sense on their own without depending on other components)")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"storage-component"}},[_v("Storage component"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#storage-component","onclick":"event.stopPropagation()"}})])}
@@ -440,19 +452,448 @@ with(this){return _c('h2',{attrs:{"id":"appendix-instructions-for-manual-testing
 with(this){return _c('h3',{attrs:{"id":"launch-and-shutdown"}},[_v("Launch and shutdown"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#launch-and-shutdown","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Initial launch")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Download the jar file and copy into an empty folder")])]),_v(" "),_c('li',[_c('p',[_v("Double-click the jar file Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum.")])])])]),_v(" "),_c('li',[_c('p',[_v("Saving window preferences")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Resize the window to an optimum size. Move the window to a different location. Close the window.")])]),_v(" "),_c('li',[_c('p',[_v("Re-launch the app by double-clicking the jar file."),_c('br'),_v("\nExpected: The most recent window size and location is retained.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Initial launch")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Download the latest "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("EventBook.jar")]),_v(" file from "),_c('a',{attrs:{"href":"https://github.com/AY2324S2-CS2103T-T11-3/tp/releases"}},[_v("here")]),_v(" and copy into an empty folder")])]),_v(" "),_c('li',[_c('p',[_v("Open a command terminal and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("cd")]),_v(" into the folder with "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("EventBook.jar")]),_v(". Execute the following command to run "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Eventbook")]),_v(":")])])]),_v(" "),_c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v(" java -jar EventBook.jar\n")])])]),_c('ol',{attrs:{"start":"3"}},[_c('li',[_v("The app will start up and you will see a GUI similar to the following:\n"),_c('a',{attrs:{"href":"/tp/images/GUI_breakdown.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/GUI_breakdown.png","alt":""}})])])])]),_v(" "),_c('li',[_c('p',[_v("Saving window preferences")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Resize the window to an optimum size. Move the window to a different location. Close the window.")])]),_v(" "),_c('li',[_c('p',[_v("Re-launch the app by double-clicking the jar file."),_c('br'),_v("\nExpected: The most recent window size and location is retained.")])])])]),_v(" "),_c('li',[_c('p',[_v("Shut Down")]),_v(" "),_c('ol',[_c('li',[_v("Click on the cross at the top of the window:\n"),_c('ul',[_c('li',[_v("MacOS: Red dot at the top left hand corner of the window.")]),_v(" "),_c('li',[_v("Windows and Linux: Cross at the top right hand corner of the window.")])])]),_v(" "),_c('li',[_v("Click on File button in the Menu Bar, then click on the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Exit")]),_v(" option.")]),_v(" "),_c('li',[_v("Type "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")]),_v(" into the Command Box and click enter.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"adding-a-person"}},[_v("Adding a person"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#adding-a-person","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Add person with "),_c('strong',[_v("all necessary parameters")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("add n/Alice Smith p/98765432 e/alice@gmail.com a/123 Main Street\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Alice Smith with the provided details should be successfully added to the EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Add person with all necessary parameters and "),_c('strong',[_v("optional parameters")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("add n/Bob Johnson p/98675423 e/bob@gmail.com a/456 Elm Street t/logistics t/head\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Bob Johnson with the provided details and tags should be successfully added to the EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Add person with "),_c('strong',[_v("necessary parameters missing")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("add n/Carol Lee p/8765432109\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: No person added. Error stating invalid command format displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"4"}},[_c('li',[_v("Add person that "),_c('strong',[_v("already exists")]),_v(" in the EventBook")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("add n/Alice Smith p/98765432 e/alice@gmail.com a/123 Main Street\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error stating that person already exists in the EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"editing-a-person"}},[_v("Editing a person"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#editing-a-person","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Ensure that there is at least one person in the EventBook.")]),_v(" "),_c('li',[_v("Execute the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command to display all contacts in your EventBook.\nTest Cases:")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Edit person with "),_c('strong',[_v("valid index")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("edit 1 n/John Doe p/91234567 e/johndoe@example.com\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: The phone number and email address of the 1st person should be successfully updated.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Edit person with "),_c('strong',[_v("valid full name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("edit John Doe t/publicity\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: The person named John Doe should have their tags updated to \"publicity\".")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Edit person with "),_c('strong',[_v("invalid index")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("edit 0 n/John Smith\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: No person is edited. Error stating invalid command format displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"4"}},[_c('li',[_v("Edit person with "),_c('strong',[_v("invalid name")]),_v(" (not full name)")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("edit John t/logistics\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error stating that person name provided is invalid.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"finding-a-person"}},[_v("Finding a person"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#finding-a-person","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Ensure that there is at least one person in the EventBook.")]),_v(" "),_c('li',[_v("Execute the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command to display all contacts in your EventBook.\nTest Cases:")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Find a "),_c('strong',[_v("valid person")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("find John\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Indicates number of persons whose names contain \"John\" and shows the displays the corresponding contacts.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Find a valid person with "),_c('strong',[_v("name in lowercase")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("find john\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Same as 1, returns all persons whose names contain \"john\" regardless of case sensitivity.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Find "),_c('strong',[_v("two valid persons")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("find Alice Bob\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Indicates number of persons whose name contain \"Alice\" "),_c('strong',[_v("or")]),_v(" \"Bob\" and displays the corresponding contacts.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"4"}},[_c('li',[_v("Find with "),_c('strong',[_v("incomplete name")]),_v(" (missing one letter)")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("find Bo \n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Indicates that 0 persons were found, contact list is empty.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"deleting-a-person"}},[_v("Deleting a person"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#deleting-a-person","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Deleting a person while all persons are being shown")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Prerequisites: List all persons using the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command. Multiple persons in the list.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 1")]),_c('br'),_v("\nExpected: First contact is deleted from the list. Details of the deleted contact shown in the status message. Timestamp in the status bar is updated.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 0")]),_c('br'),_v("\nExpected: No person is deleted. Error details shown in the status message. Status bar remains the same.")])]),_v(" "),_c('li',[_c('p',[_v("Other incorrect delete commands to try: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete x")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("...")]),_v(" (where x is larger than the list size)"),_c('br'),_v("\nExpected: Similar to previous.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
+with(this){return _c('ul',[_c('li',[_v("Ensure that there are multiple persons in the EventBook.")]),_v(" "),_c('li',[_v("Execute the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command to display all contacts in your EventBook.")])])}
 },function anonymous(
 ) {
-with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#saving-data","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('ol',[_c('li',[_v("Delete with "),_c('strong',[_v("valid index")])])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("delete 1\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: First contact is deleted from the list. Details of the deleted contact shown in the status message.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Delete by "),_c('strong',[_v("valid name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("delete Alice \n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Alice is deleted from the list. Details of the deleted contact shown in the status message.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Delete with "),_c('strong',[_v("invalid index")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("delete 0\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: No person is deleted. Error stating invalid command format displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"4"}},[_c('li',[_v("Delete by "),_c('strong',[_v("invalid name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("delete Bo\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: No person is deleted. Error stating person name invalid displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"importing-contacts"}},[_v("Importing contacts"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#importing-contacts","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Import contacts from "),_c('strong',[_v("valid .csv file")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Prerequisites: Ensure there is a valid .csv file containing contacts in the specified format.")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("import f/./import/import.csv\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Contacts from the specified .csv file should be successfully imported into the EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Import contacts from "),_c('strong',[_v("default .csv file")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Prerequisites: Ensure there is a default .csv file named \"import.csv\" in the default directory.")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("import f/\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Contacts from the default .csv file should be successfully imported into the EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Attempt to import contacts from "),_c('strong',[_v("invalid file path")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("import f/./import/import.csv\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error message indicating that import was unsuccessful, no such file was found at the given path.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"exporting-contacts"}},[_v("Exporting contacts"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exporting-contacts","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Export contacts to "),_c('strong',[_v("default .csv file")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("export\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Contacts from the EventBook should be successfully exported to the default .csv file named \"export.csv\" in the default directory.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"creating-a-tag"}},[_v("Creating a Tag"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#creating-a-tag","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Create a tag with "),_c('strong',[_v("valid name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("ctag Friend\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Message showing that a tag with name \"Friend\" has been successfully created")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Create a tag with "),_c('strong',[_v("invalid characters")]),_v(" in name")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("ctag Good Friends\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: No new tag created successfully. Error message indicating that tag has not been added successfully displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Create a tag with "),_c('strong',[_v("existing tag name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("ctag Friend\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: No new tag created successfully. Error message indicating that tag already exists displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"4"}},[_c('li',[_v("Create an event tag with valid parameters")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("ctag t/E-Orientation dc/ORIENTATION! sd/2024-04-15 10:00:00 ed/2024-04-15 12:00:00\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: An event tag named \"Orientation\" should be successfully created with the specified start and end dates.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"5"}},[_c('li',[_v("Create an event tag with "),_c('strong',[_v("invalid format")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("ctag t/E-Team Meeting sd/2024-04-15 10:00:00 ed/2024-04-15 12:00:00\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: No new tag created successfully. Error message indicating that format is invalid displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"6"}},[_c('li',[_v("Create an event tag with "),_c('strong',[_v("existing event name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("ctag t/E-Orientation dc/ORIENTATION! sd/2024-04-15 14:00:00 ed/2024-04-15 16:00:00\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: No new tag created successfully. Error message indicating that tag already exists displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"deleting-a-tag"}},[_v("Deleting a Tag"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#deleting-a-tag","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Ensure that the tag "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Friend")]),_v(" exists in EventBook.")]),_v(" "),_c('li',[_v("Execute the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command to display all contacts in your EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Delete "),_c('strong',[_v("existing tag")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("dtag Friend\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Message indicating the tag with name \"Friend\" has been successfully deleted. \"Friend\" tag will also disappear from contacts who were previously tagged with it.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Delete "),_c('strong',[_v("non-existing tag")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("dtag test\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error message indicating that such a tag does not exist.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Delete tag "),_c('strong',[_v("without providing name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("dtag\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error message indicating that command format is invalid.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"deleting-an-eventtag"}},[_v("Deleting an EventTag"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#deleting-an-eventtag","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Ensure that the tag "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Orientation")]),_v(" exists in EventBook.")]),_v(" "),_c('li',[_v("Execute the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command to display all contacts in your EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Delete "),_c('strong',[_v("existing event tag")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("devent Orientation\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Message to indicate that event with name \"Orientation\" has successfully been deleted. The Orientation tab in the list of events and Orientation tag for contacts will also disappear.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Delete "),_c('strong',[_v("non-existing event tag")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("devent test\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error message indicating that no such event exists displayed. No event tag deleted successfully.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Delete event tag with "),_c('strong',[_v("whitespace")]),_v(" in name")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("devent ori ntation\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error message indicating incorrect format of command entered. No event tag deleted successfully.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"assigning-a-tag"}},[_v("Assigning a Tag"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#assigning-a-tag","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Ensure that the tag "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("logistics")]),_v(" exists in EventBook.")]),_v(" "),_c('li',[_v("Execute the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command to display all contacts in your EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Assign "),_c('strong',[_v("tag")]),_v(" to person with "),_c('strong',[_v("valid index")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("assign 1 t/logistics\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Message indicating that person at index 1 has been successfully assigned the tag "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("logistics")]),_v(".")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Assign "),_c('strong',[_v("event tag")]),_v(" to person with "),_c('strong',[_v("valid name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("assign John t/E-Rag\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Message indicating that person at index 1 has been successfully assigned the event tag "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Rag")]),_v(".")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Assign a tag which does not currently exist")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("assign 1 t/hello\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error message indicating to user to check if the tag entered exists displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"4"}},[_c('li',[_v("Assign an event tag which does not currently exist")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("assign 1 t/E-hello\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error message indicating to user to check if the event tag entered exists displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"search-by-tag"}},[_v("Search by Tag"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#search-by-tag","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("run the following commands:")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("ctag test\n")]),_c('span',[_v("assign 1 test\n")]),_c('span',[_v("assign 2 test\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Execute the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command to display all contacts in your EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Search "),_c('strong',[_v("valid tag name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("search test\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Message indicates that all people with tag "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("test")]),_v(" have been found. Contacts displayed all contain the blue "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("test")]),_v(" tag.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Search "),_c('strong',[_v("invalid tag name")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("search hello\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error message indicating that no persons with tag "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("test")]),_v(" found.")])])}
+},function anonymous(
+) {
+with(this){return _c('h3',{attrs:{"id":"switching-between-events"}},[_v("Switching between Events"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#switching-between-events","onclick":"event.stopPropagation()"}})])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Ensure that the event tag "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Rag")]),_v(" exists in EventBook.")]),_v(" "),_c('li',[_v("Execute the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command to display all contacts in your EventBook.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("Switch to "),_c('strong',[_v("existing event")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("switch Rag\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: highlighted tab switches from "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("All")]),_v(" to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Rag")]),_v(" and all contacts displayed contain the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Rag")]),_v(" tag. The details of "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Rag")]),_v(" event are also displayed in the command result box.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"2"}},[_c('li',[_v("Switch back to "),_c('strong',[_v("display all contacts")]),_v(" (list)")])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("list\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: highlighted tab switches back to the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("All")]),_v(" tab and all contacts in EventBook displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',{attrs:{"start":"3"}},[_c('li',[_v("Switch to "),_c('strong',[_v("non-existent event")])])])}
+},function anonymous(
+) {
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("switch hello\n")])])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("Expected: Error message indicating that no such event found displayed.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"appendix-enhancement"}},[_c('strong',[_v("Appendix: Enhancement")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix-enhancement","onclick":"event.stopPropagation()"}})])}
@@ -461,6 +902,6 @@ with(this){return _c('h2',{attrs:{"id":"appendix-enhancement"}},[_c('strong',[_v
 with(this){return _c('ol',[_c('li',[_c('strong',[_v("To show custom error for wrong time in "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ctag")]),_v(" command")]),_v(": When creating event tags with the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ctag")]),_v(" command,\nyou will not get notified correctly on why you failed when you input the incorrect time(like 25:73:74 in the 24-hour\nformat). We plan to make the error message also mention why failed and the reason for the failure: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Incorrect time input: please check that your time is correct!")])]),_v(" "),_c('li',[_c('strong',[_v("Help message in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_v(" command updates with spacing")]),_v(": When displaying an error message prompting you to\ninput with the correct format for the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_v(" command, the example given displays: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Example: delete 1ordelete JohnDoe")]),_v(".\nWe plan to fix it to "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Example: delete 1 or delete JohnDoe")]),_v(".")]),_v(" "),_c('li',[_c('strong',[_v("Allow only correct phone numbers to recognized as phone numbers")]),_v(": For contacts' phone number, we currently allow\nit to be any number value with size of "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("int")]),_v(" which can create some issues. We plan to make the phone number we add to\ncontact only valid phone numbers types like "),_c('strong',[_v("+65 8888 8888")]),_v(" in singapore or "),_c('strong',[_v("+1 (123) 123-1234")]),_v(" in the United States.")]),_v(" "),_c('li',[_c('strong',[_v("New error message when creating tag or event tags that is not single-word or contains illegal characters with the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ctag")]),_v(" command")]),_v(":\nAll tags and event tags in this app are strictly "),_c('strong',[_v("one word only with and alphanumeric only(a-z, A-Z, 0-9)")]),_v(".\nWhen a person attempts to create tag or event tag with more than one word or contains illegal alphabet,\nhe/she currently will only get an error message that is not related what caused the command to fail. We plan to create an\ncustom error that will inform the user to that tag/event tag need to be one word with "),_c('strong',[_v("legal characters(a-z, A-Z, 0-9) only")]),_v("\nwhen this mistake by the user occurs.")]),_v(" "),_c('li',[_c('strong',[_v("Display all existing tags with a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("taglist")]),_v(" command")]),_v(": The current implementation "),_c('strong',[_v("does not allow you to see all the existing tags\nwithin the EventBook")]),_v(" and this will cause some trouble for the user. For example, according to the user guide, when assigning a tag in the address book to a specified person,\nthe provided tag(s) must already exist in the EventBook. However, there is no accessible list of tags (not event tags) that have been added.\nThe absence of tag visibility aside from the ones you see beside contact panels in the app makes it challenging for users\nto remember if a tag was added when there are too many tags in the contact. We plan to create a new command that will\ndisplay all the tags that are in the address book with a command called "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("taglist")]),_v(". For example, if I input "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("taglist")]),_v(",\nthe app will display all the existing tags in the EventBook, with an output like "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tags: Tag1, Tag2, Tag3, Tag4")]),_v(".")]),_v(" "),_c('li',[_c('strong',[_v("Make the app window adjust to the correct size without whitespace when you try to change its size`")]),_v(":\nThe current app's default display works fine but when trying to adjust the window, whitespace will appear at the bottom\nof the app instead of adjusting the size of the whole window as shown below. "),_c('a',{attrs:{"href":"/tp/images/DG/DG_Enhancement_Window.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/DG/DG_Enhancement_Window.png","alt":""}})]),_v("\nWe plane to make the window readjust properly for the future app instead of displaying this whitespace.")]),_v(" "),_c('li',[_c('strong',[_v("Length inputs to be displayed in full in the EventBook")]),_v(": In the current implementation,\nlengthy inputs for the fields appear to not be displayed in full by the UI as shown in the image below. "),_c('a',{attrs:{"href":"/tp/images/DG/DG_Enhancement_Lengthy.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/DG/DG_Enhancement_Lengthy.png","alt":""}})]),_v("\nWe plan to make the display in full for up to 3 lines' length of information in the contact panel.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 21:07:56 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 21:09:11 GMT+8]")])])])}
 }];
   
